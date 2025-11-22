@@ -34,10 +34,10 @@ const Navbar: React.FC = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <a href="#" className="text-2xl font-display font-bold tracking-tighter flex items-center gap-2">
-          <div className="w-8 h-8 bg-gradient-to-tr from-brand-500 to-blue-500 rounded-lg"></div>
+        <a href="#" className="text-lg md:text-xl font-display font-bold tracking-tight flex items-center gap-3">
+          <div className="w-8 h-8 bg-gradient-to-tr from-brand-500 to-blue-500 rounded-lg shrink-0"></div>
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-white/80">
-            TalentCore
+            Talent Core Association
           </span>
         </a>
 

@@ -13,10 +13,10 @@ const Footer: React.FC = () => {
           
           {/* Brand */}
           <div className="space-y-6">
-             <a href="#" className="text-2xl font-display font-bold tracking-tighter flex items-center gap-2">
+             <a href="#" className="text-xl font-display font-bold tracking-tight flex items-center gap-2">
               <div className="w-6 h-6 bg-gradient-to-tr from-brand-500 to-blue-500 rounded-md"></div>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-white/80">
-                TalentCore
+                Talent Core Association
               </span>
             </a>
             <p className="text-slate-400 text-sm leading-relaxed">
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-slate-500 text-sm">© 2024 TalentCore Next. All rights reserved.</p>
+          <p className="text-slate-500 text-sm">© 2024 Talent Core Association. All rights reserved.</p>
           
           <button 
             onClick={scrollToTop}
