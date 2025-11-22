@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React from 'react';
+import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import { Project } from '../types';
 
@@ -13,8 +13,6 @@ const projects: Project[] = [
 ];
 
 const Portfolio: React.FC = () => {
-  const [hoveredId, setHoveredId] = useState<number | null>(null);
-
   return (
     <section id="portfolio" className="py-24 bg-slate-950">
       <div className="max-w-7xl mx-auto px-6">
@@ -38,8 +36,6 @@ const Portfolio: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              onMouseEnter={() => setHoveredId(project.id)}
-              onMouseLeave={() => setHoveredId(null)}
               className="group relative aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer"
             >
               <img 
